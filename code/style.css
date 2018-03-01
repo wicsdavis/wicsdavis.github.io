@@ -1,0 +1,129 @@
+/*MAKE IT PRETTTY */
+/*
+1.Change background color https://uigradients.com/#SweetMorning
+2.Change the image shape
+3.Change font and font size
+5.Change the link color
+4.Change the spacing
+*/
+
+
+/*common*/
+body{
+  background-color: #000;
+  /*background: #cb2d3e; /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(to right, #cb2d3e, #ef473a); /* Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to right, #cb2d3e, #ef473a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #ef456e;
+  font-family: courier, terminal;
+  color: #80FF80; // a bright green
+
+
+}
+img.mephoto {
+  width: 35vw;
+  height: auto;
+}
+img.bw {
+  width: 35vw;
+  height: auto;
+  border: 30px #ef456e;
+}
+
+img.soc{
+  width: 4vw;
+  height: auto;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: #ef456e;
+}
+a, p{
+  color: #f48ca5;
+  text-decoration: none;
+}
+.name{
+  font-size: 2.5vw;
+  font-family: 'Press Start 2P', cursive;
+}
+.tagline{
+  font-size: 2vw;
+}
+
+
+
+
+.column{
+  float: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+.WorkSection{
+  display: flex;
+  flex-direction: column;
+
+}
+.WorkLinks{
+  align-items: left;
+  justify-content: center;
+  text-align: left;
+
+
+}
+/* ^^ common*/
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+  .column {
+      width: 100vw;
+      height: 100vh;
+
+   }
+   .name{
+     font-size: 45px;
+   }
+   .tagline{
+     font-size: 20px;
+   }
+   img.bw{
+     width: 60vw;
+     height: auto;
+   }
+   img.mephoto{
+     width: 80vw;
+     height: auto;
+   }
+   .WorkLinks{
+     padding-left: 20vw;
+     align-items: left;
+     justify-content: center;
+     text-align: left;
+   }
+   a, p{
+     font-size: 2.5vw;
+
+   }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    /* tablets and desktop */
+    .row {
+      height: 100vh;
+      width: 100vw;
+    }
+    .AboutMe {
+        height: 100vh;
+        width: 60vw;
+    }
+    .WorkLinks{
+      height: 100vh;
+      width: 40vw;
+    }
+}
