@@ -10,10 +10,6 @@ body {
 }
 
 h1, p, a {
-    //font-family: 'Fira Sans Extra Condensed', sans-serif;
-    //font-family: 'Overpass', sans-serif;
-    //font-family: 'Pragati Narrow', sans-serif;
-    //font-family: 'Barlow Semi Condensed', sans-serif;
     font-family: 'Noto Serif KR', sans-serif;
 }
 
@@ -55,14 +51,8 @@ h1, p, a {
 }
 
 h2 {
-    font-size: 35px;
-    //font-family: 'Dancing Script', cursive;
+    font-size: 25px;
     font-family: 'Great Vibes', cursive;
-    //font-family: 'Kaushan Script', cursive;
-    //font-family: 'Cookie', cursive;
-    //font-family: 'Tangerine', cursive;
-    //font-family: 'Alex Brush', cursive;
-    //font-family: 'Fredericka the Great', cursive;
 }
 
 top {
@@ -80,11 +70,12 @@ top {
     background-image: url(../images/ornella-binni-114183-unsplash.jpg);
     background-size: cover;
     background-position: bottom;
-    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;}
+    align-items: center;
+    flex: 1 0 auto;
+}
 
 #home {
     background-color: rgb(255,255,255,.8);
@@ -137,7 +128,6 @@ top {
 }
 
 #contactus {
-    bottom: 0px;
     width: 100%;
     background-color: #d3466c;
     display: flex;
@@ -288,7 +278,6 @@ top {
         text-align: center;
         font-family: 'Lora', serif;
         font-weight: 400;
-        font-size: 25px;
         padding: 5px 20px;
         border-bottom: solid #d3466c;
     }
@@ -327,5 +316,31 @@ top {
     }
     
     #imageback {
+    }
+    
+    /* RESIZE ALL FONTS FOR DESKTOP*/
+    
+    h2 {
+        font-size: 35px;
+    }
+    
+    #home h1{
+        font-size: 30px;
+    }
+    
+    #home p {
+        font-size: 20px;
+    }
+    
+    #contactus h1 {
+        font-size: 25px;
+    }
+    
+    #navbar a {
+        font-size: 25px;
+    }
+    
+    #navbar2 a {
+        font-size: 25px;
     }
 }
