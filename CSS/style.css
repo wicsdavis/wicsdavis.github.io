@@ -13,6 +13,7 @@ h1, p, a {
     font-family: 'Noto Serif KR', sans-serif;
 }
 
+
 #header {
     
 }
@@ -23,8 +24,7 @@ h1, p, a {
 }
 
 .iconsBox2 {
-    flex: 0 1 40px;
-    padding: 5px;
+    flex: 1 1 40px;
 }
 
 .iconsBox2 img {
@@ -71,6 +71,7 @@ top {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 5px;
 }
 
 #imageback {
@@ -209,16 +210,19 @@ top {
 #Facebook:hover {
     background-image: url(../images/Icons/icons8-facebook-50hover.png);
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #Instagram:hover {
     background-image: url(../images/Icons/icons8-instagram-50hover.png);
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #GitHub:hover {
     background-image: url(../images/Icons/github%20iconhover.png);
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 #navbar a:hover, #navbar a.active {
