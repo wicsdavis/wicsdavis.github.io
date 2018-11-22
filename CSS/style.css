@@ -109,7 +109,20 @@ top {
     text-align: center;
 }
 
-#home h1{
+#home2 {
+/*    margin: 40px;*/
+    flex: 1 0 auto;
+    margin: 5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#home h1, #home2 h1{
     font-weight: 700;
     font-size: 30px;
     padding: 0px;
@@ -128,7 +141,7 @@ top {
     margin-bottom: 20px;
 }
 
-#home p {
+#home p, #home2 p {
     font-size: 20px;
     margin: 10px;
     margin-bottom: 20px;
@@ -260,14 +273,14 @@ top {
     display: block;
 }
 
-#home #board p {
+#home2 #board p {
     padding-bottom: 0px;
     margin-bottom: 0px;
     color: grey;
     text-align: left;
 }
 
-#home #board .boardName {
+#home2 #board .boardName {
     color: black
 }
 
@@ -276,7 +289,7 @@ top {
         max-width: 500px;
     }
     
-    #home {
+    #home, #home2 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -365,11 +378,11 @@ top {
         font-size: 35px;
     }
     
-    #home h1{
+    #home h1, #home2 h1{
         font-size: 30px;
     }
     
-    #home p {
+    #home p, #home2 p {
         font-size: 20px;
     }
     
