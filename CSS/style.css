@@ -19,7 +19,8 @@ h1, p, a {
 }
 
 .iconsBox, .memberimgbox{
-    flex: 1 1 20%;
+    flex: 1 0 40%;
+    max-width: 40%;
     margin: 5px;
 }
 
@@ -85,6 +86,14 @@ top {
     align-items: center;
     flex: 1 0 auto;
 }
+
+#imageback2 {
+    background-color: #e2d1d0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 auto;}
 
 #home {
     background-color: rgb(255,255,255,.8);
@@ -231,6 +240,14 @@ top {
 /*    background-color: rgb(0,0,0,.5);*/
 }
 
+.member:hover {
+    background-color: #e6f2ff;
+}
+
+.member {
+    border: 1px solid grey;
+}
+
 #navbar2 {
     display: none;
 }
@@ -243,8 +260,16 @@ top {
     display: block;
 }
 
+#home #board p {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: grey;
+    text-align: left;
+}
 
-
+#home #board .boardName {
+    color: black
+}
 
 @media screen and (min-width: 600px) {
     #frontTitle, #frontTitle2, #frontTitle3 {
